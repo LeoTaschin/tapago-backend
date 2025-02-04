@@ -10,6 +10,9 @@ COPY package.json package-lock.json ./
 # Instala as dependências
 RUN npm install
 
+RUN npx prisma generate
+
+
 # Copia o restante do código para o contêiner
 COPY . .
 
