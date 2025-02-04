@@ -1,4 +1,8 @@
 {
+  "prisma": {
+  "schema": "prisma/schema.prisma"
+},
+
   "scripts": {
   "start": "node index.js",
   "postinstall": "prisma generate"
