@@ -1,6 +1,7 @@
 {
   "scripts": {
-  "start": "node index.js"
+  "start": "node index.js",
+  "postinstall": "prisma generate"
 },
   "dependencies": {
     "@prisma/client": "^6.3.0",
